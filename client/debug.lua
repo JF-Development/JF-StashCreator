@@ -1,0 +1,5 @@
+CreateThread(function()
+    print('[jf-stashcreator] client loaded')
+    print('[jf-stashcreator] ox_lib state:', GetResourceState('ox_lib'))
+    print('[jf-stashcreator] lib is:', lib)
+end)
